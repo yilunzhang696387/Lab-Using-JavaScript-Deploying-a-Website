@@ -58,7 +58,7 @@ var modelButton = document.getElementById("model-button");
 
 function changeModel()
 {
-    document.getElementById("model-text").innerHTML;
+    document.getElementById("model-text").innerHTML();
     if (modelName == "XYZ")
     {
         modelName = "CPRG";
