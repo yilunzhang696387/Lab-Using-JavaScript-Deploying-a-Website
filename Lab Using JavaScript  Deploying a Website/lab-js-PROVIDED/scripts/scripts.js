@@ -58,7 +58,7 @@ var modelButton = document.getElementById("model-button");
 
 function changeModel()
 {
-    var model = document.getElementById("model-text").innerHTML;
+    document.getElementById("model-text").innerHTML;
     if (modelName == "XYZ")
     {
         modelName = "CPRG";
@@ -94,7 +94,7 @@ modelButton.addEventListener("click", changeModel);
 var durationButton = document.getElementById("duration-button");
 function changeDuration()
 {
-    userInput = window.prompt("What is the duration?");
+    var userInput = window.prompt("What is the duration?");
     duration = parseFloat(userInput); 
     document.getElementById("duration-text").innerHTML = duration;
     recalculate();
